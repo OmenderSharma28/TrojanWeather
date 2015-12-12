@@ -1,0 +1,54 @@
+PODS:
+  - AerisWeather (2.2.1):
+    - AerisWeather/Aeris (= 2.2.1)
+  - AerisWeather/Aeris (2.2.1):
+    - AFNetworking (~> 2.6)
+  - AerisWeather/AerisGoogleMap (2.2.1):
+    - AerisWeather/AerisMap
+    - AerisWeather/AerisUI
+    - GoogleMaps
+  - AerisWeather/AerisMap (2.2.1):
+    - AerisWeather/AerisUI
+  - AerisWeather/AerisMapboxMap (2.2.1):
+    - AerisWeather/AerisMap
+    - AerisWeather/AerisUI
+    - MBXMapKit
+  - AerisWeather/AerisUI (2.2.1)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - GoogleMaps (1.11.1)
+  - MBXMapKit (0.8.0)
+
+DEPENDENCIES:
+  - AerisWeather
+  - AerisWeather/AerisGoogleMap
+  - AerisWeather/AerisMap
+  - AerisWeather/AerisMapboxMap
+  - AerisWeather/AerisUI
+
+SPEC CHECKSUMS:
+  AerisWeather: f41ef7d0022de87fe642a19fc2861f4e5dc3a9a6
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  GoogleMaps: c947160008f414c66707a5ea60f35e92055c7670
+  MBXMapKit: 56040108ea7fbb87f98ea896d620e0d4290c2dbd
+
+COCOAPODS: 0.39.0

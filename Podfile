@@ -1,0 +1,5 @@
+pod 'AerisWeather'
+pod 'AerisWeather/AerisUI'
+pod 'AerisWeather/AerisMap'
+pod 'AerisWeather/AerisMapboxMap'
+pod 'AerisWeather/AerisGoogleMap'
